@@ -5,11 +5,11 @@ public class Pattern {
         f= (num * num)/100;  
         s = ((num-1) * (num-1))/100;  
         while (f-s ==1) {
-            num++;
+            num--;
             f= (num * num)/100;  
             s = ((num-1) * (num-1))/100; 
                                           };
-        return num;
+        return num-1;
     }
     public static void main(String[] args){
         Pattern d = new Pattern();
