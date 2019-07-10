@@ -11,7 +11,6 @@ public class Pattern {
     }
     public static void main(String[] args){
         Pattern d = new Pattern();
-        System.out.println("The number that breaks the pattern is " 
-        + d.decrCalc(49));
+        System.out.println("The number that breaks the pattern is " + d.decrCalc(49));
     }
 }
