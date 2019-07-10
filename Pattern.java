@@ -10,7 +10,10 @@ public class Pattern {
         return num;
     }
     public static void main(String[] args){
+        System.out.print("Give the starting point of numbers pattern:");
+        Scanner sc = new Scanner(System.in); 
+        int input = sc.nextInt();        
         Pattern d = new Pattern();
-        System.out.println("The number that breaks the pattern is " + d.decrCalc(49));
+        System.out.println("The number that breaks the pattern is " + d.decrCalc(input)); /*Give 49*/
     }
 }
