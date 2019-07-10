@@ -1,7 +1,7 @@
 
 public class Pattern {
     public int decrCalc(int num){
-        int f = 0, s = 0, max = 0;
+        int f = 0, s = 0;
         f = (num * num)/100;  
         s = ((num-1) * (num-1))/100;  
         while (f-s ==1) {
