@@ -1,4 +1,4 @@
-
+import java.util.Scanner; 
 public class Pattern {
     public int decrCalc(int num){
         int f = 0, s = 0;
